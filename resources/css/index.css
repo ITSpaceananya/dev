@@ -1,0 +1,86 @@
+body{
+  background-image: url("../images/coding3.jpg");
+  color: white;
+  background-size:cover;
+  background-repeat: no-repeat
+}
+
+nav{
+  position: fixed;
+  top: 0px;
+  background-color: burlywood;
+  color: blue;
+  width: 100%;
+  opacity: 40%;
+  text-align: center;
+  z-index: 5;
+}
+.intro{
+  width: 40%;
+  display: inline-block;
+}
+
+.work{
+  width: 40%;
+}
+.intro,.work{
+  background-color: black;
+  opacity: 0.5;
+  font-size: 20px;
+  color:white;
+  position: relative;
+  top: 10px;
+}
+
+header{
+  font-family:'Akaya Kanadaka';
+  font-size: 70px;
+  color: gold;
+  position: relative;
+  top: 71px;
+
+}
+.right-place{
+  text-align: right;
+  margin-top: -10px;
+}
+.Ananya h4{
+  width: 38%;
+  padding: 9px ;
+  margin: 0 auto;
+  background-color:palevioletred;
+  position: relative;
+  top: 89%;
+  text-align: center;
+
+}
+#contant{
+  color:yellowgreen;
+
+}
+
+.Ananya{
+  background-image: url("../images/5DAEA07B-2F8C-4DAE-AACF-B2A4E44EBF62_1_201_a.jpeg");
+  background-position: center;
+  background-size: contain; 
+  background-repeat: no-repeat;
+  height: 320px;
+  width: 23%;
+  position: relative;
+  top:10px;
+  display: inline-block;
+
+}
+
+footer{
+  position: relative;
+  top: 10px;
+}
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.work ul{
+  list-style-type: none;
+}
